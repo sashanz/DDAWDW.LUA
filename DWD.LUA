@@ -24,7 +24,7 @@ local Tab = Window:NewTab("aimbot")
 local Section = Tab:NewSection("AIMBOT")
 Section:NewButton("AIMBOT", "ButtonInfo", function()
      loadstring(game:HttpGet("https://raw.githubusercontent.com/sashanz/-/refs/heads/main/redme.lua"))()
-end)
+end
 local Tab = Window:NewTab("SpeedHak")
 local Section = Tab:NewSection("SpeedHak")
 Section:NewButton("SpeedHak", "ButtonInfo", function()
